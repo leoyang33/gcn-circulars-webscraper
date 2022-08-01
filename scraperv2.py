@@ -1,8 +1,7 @@
 """ NASA GCN Archive Scraper
 This script scrapes NASA's GCN Archive and looks up aliases for an event
 
-Input: String of datetime
-Return: array of matched aliases
+Requires "BeautifulSoup4" library
 """
 
 import requests
