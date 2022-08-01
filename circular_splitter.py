@@ -1,18 +1,12 @@
 """ GCN Circulars Look Up
 This script scrapes NASA's GCN Archive and looks up circulars for given aliases
-
-Requires "BeautifulSoup4" library
 """
+
 import requests
-from bs4 import BeautifulSoup
 import re
 
 CIRCULAR_NUMBER_PATTERN = r"(NUMBER:  )(\d{5})"
 CIRCULAR_SUBJECT_PATTERN = r"(SUBJECT: )(.*)"
-
-# Args: array of strings (aliases) for a given event
-# Return: dictionary that contains {circular #: circular subject}
-
 
 def get_circulars(aliases):
     """Returns a dictionary mapping circular number to circular subject
