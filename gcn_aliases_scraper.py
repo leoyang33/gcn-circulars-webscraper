@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 """GCN Event Name Lookup
+=======
+""" NASA GCN Archive Scraper
+>>>>>>> ec34b33b03cc39a375e6026880e459b45125fe59
 This script scrapes NASA's GCN Archive and looks up aliases for an event
 
 Requires "BeautifulSoup4" library
